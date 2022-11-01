@@ -1,0 +1,34 @@
+{
+  "name": "cc1993-cli",
+  "version": "1.0.0",
+  "description": "前端开发的脚手架工具",
+  "main": "index.js",
+  "bin": {
+    "cc": "bin/heaven.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenchao19934/cc-cli.git"
+  },
+  "author": "chenchao <935626020@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenchao19934/vue-template/issues"
+  },
+  "homepage": "https://chenchao19934.github.io/home.github.com",
+  "dependencies": {
+    "cc1993-cli": "^1.0.1",
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.1.2",
+    "leven": "^3.1.0",
+    "ora": "^5.4.1"
+  }
+}
